@@ -1,6 +1,7 @@
-# KickVault — Downloads
+# XinoVault — Downloads
 
-Bulk downloader for Kick.com clips and VODs. A native Windows desktop app.
+Bulk video downloader for Kick, YouTube, Twitch, TikTok and Instagram, plus
+single links from hundreds of other sites. A native Windows desktop app.
 
 This repository holds **only the installers**. It exists so the app can check
 for updates without needing any credentials — the source code lives in a
@@ -14,16 +15,16 @@ separate private repository.
 
 | File | What it is |
 |---|---|
-| **KickVault-Setup.exe** | The installer. Use this one. |
-| KickVault-Portable.exe | Single file, no install. For a USB stick or a machine you cannot install on. |
+| **XinoVault-Setup.exe** | The installer. Use this one. |
+| XinoVault-Portable.exe | Single file, no install. For a USB stick or a machine you cannot install on. |
 
 ## Install
 
-Double-click **KickVault-Setup.exe**.
+Double-click **XinoVault-Setup.exe**.
 
 There is no wizard and nothing to choose. It installs for your user account
 only, so it **never asks for an administrator password**, and it launches itself
-when it finishes. You get a KickVault shortcut on your Desktop and in the Start
+when it finishes. You get a XinoVault shortcut on your Desktop and in the Start
 Menu.
 
 ### "Windows protected your PC"
@@ -65,6 +66,13 @@ missing. Restart the app afterwards.
 Windows 10 or 11, 64-bit.
 
 ---
+
+## Privacy
+
+Everything runs on your computer. No accounts, no telemetry, no analytics —
+nothing you do in the app is sent to us. The app only talks to the platforms
+you browse, and to GitHub to check for updates. Full details:
+**[PRIVACY.md](PRIVACY.md)**.
 
 ## A note on use
 
