@@ -20,6 +20,10 @@ Everything the app knows lives in `%APPDATA%\XinoVault` on your machine:
   inside the app, those sessions (cookies) are stored locally by the embedded
   browser, exactly as a normal browser would store them. They are used only to
   talk to that platform and never leave your machine otherwise.
+- **A local activity log** — the database keeps a technical record of app
+  events (downloads finished, settings changed) so problems can be
+  reconstructed after the fact. It is never read by the app for any other
+  purpose and never leaves your machine.
 - **Logs and thumbnail cache** — kept locally for troubleshooting and speed.
 
 Deleting that folder removes all of it. Downloads themselves go to the folder
@@ -53,4 +57,4 @@ each platform's terms of service and creators' rights.
 If any of the above ever changes, this file changes in the same release, and
 the changelog says so.
 
-*Last updated: 2026-08-30, v0.9.3.*
+*Last updated: 2026-08-31.*
